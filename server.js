@@ -14,7 +14,7 @@ function sendMessage(chatId, message) {
 
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
-    bot.sendMessage(chatId, 'Welcome to 2SettleHQ! say "Hi Alice" to start a conversation');
+    bot.sendMessage(chatId, 'Welcome to 2SettleHQ!, my name is Alice, i am 2settleHQ vitual assistance, say "hello Alice" to start a conversation');
   });
 
 bot.onText(/hello|hi|hey/i, (msg) => {
